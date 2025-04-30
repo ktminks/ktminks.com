@@ -1,0 +1,15 @@
+body {
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/78/4f/0b/784f0bccfd1c1e03463b84b7d43a5af7.jpg");
+}
+.transbox {
+	background: rgba(255,255,255,.6);
+	border-radius: 15px;
+}
+h1{
+	font-family: 'shadows into light', cursive;
+}
+.quotebox {
+	background: rgba(255, 255, 255, .6);
+	width: 60%;
+	box-shadow: 2px 5px 10px #888;
+}

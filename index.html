@@ -1,9 +1,188 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs --------------------------------->
+  <meta charset="utf-8">
+  <title>KT Minckler | Web Developer & Multi-Disciplinary Designer</title>
+  <meta name="description" content="Personal programming portfolio for Kathleen Minckler">
+  <meta name="author" content="Kathleen Minckler">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FONT --------------------------------------------->
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+
+  <!-- Favicon ------------------------------------------>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <!-- CSS ---------------------------------------------->
+  <link rel="stylesheet" href="css/fontawesome.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/home.css">
+
+  <!-- Scripts ------------------------------------------>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</head>
 
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+  <!-- Navigation bar -------------------------->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-between">
+    <div class="container-fluid">
+      <!------------------ Icon or brand ---------------------->
+      <a class="navbar-brand mx-2" id="logo" href="#">KTMinks</a>
+      <!-- Button to expand  when viewport is too small ------->
+      <div class="ms-auto">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <!------------------ Collapsible links ------------------>
+      <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ms-auto">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item ms-auto">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item ms-auto">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item ms-auto">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!---------------------- Home splash ------------------->
+
+  <div class="container-fluid px-0">
+    <div id="home">
+      <img src="img/illustrations/selfie.jpg" id="home" class="img-fluid semi-transparent" width=100%>
+    </div>
+
+    <!------------- Portfolio section ----------------->
+    <div class="d-flex flex-column justify-content-between">
+      <h1 class="align-self-center">My Work</h1>
+      <div class="d-flex flex-row flex-wrap justify-content-center" id="portfolio">
+
+        <div class="card">
+          <a href="illustration.html" target="_blank">
+            <img src="img/ktminx.jpg" class="card-img-top" alt="Portfolio site">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Illustration Portfolio</h5>
+            <p class="card-text">Basic HTML, CSS, and Magnific Popup</p>
+          </div>
+        </div>
+
+        <!-- 
+        <div class="card">
+          <a href="/twisted/index.php" target="_blank">
+            <img src="img/twisted.jpg" class="card-img-top" alt="Twisted Dragon Forge">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Twisted Dragon Forge</h5>
+            <p class="card-text">custom blacksmithing website</p>
+          </div>
+        </div> -->
+
+        <div class="card">
+          <a href="weather.html" target="_blank">
+            <img src="img/weatherapp.jpg" class="card-img-top" alt="Wunderground API">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Local Weather</h5>
+            <p class="card-text">IPAPI, OpenWeather API, jQuery, Bootstrap</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <a href="wiki-search/index.html" target="_blank">
+            <img src="img/wikiAPI.jpg" class="card-img-top" alt="Wikipedia API">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Wikipedia Search</h5>
+            <p class="card-text">Wikipedia API, jQuery</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <a href="quote-generator/index.html" target="_blank">
+            <img src="img/quoteable.jpg" class="card-img-top" alt="Mindfulness quote generator">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Mindfulness quote generator</h5>
+            <p class="card-text">Twitter API, jQuery</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <a href="calculator/calculator.html" target="_blank">
+            <img src="img/calculator.jpg" class="card-img-top" alt="Javascript calculator">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Javascript calculator</h5>
+            <p class="card-text">jQuery & Bootstrap</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <a href="recipe-box/index.html" target="_blank">
+            <img src="img/recipebox.jpg" class="card-img-top" alt="Recipe Box">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Recipe Box</h5>
+            <p class="card-text">React</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------- About Me ------------------->
+    <div class="container-fluid d-flex flex-wrap justify-content-center grayish p-5">
+      <img src="img/kt.jpg" id="kt">
+      <div class="container d-flex flex-column justify-content-center" id="about">
+        <h2>Web developer & multi-disciplinary designer.</h2>
+        <h3>Bio:</h3>
+        <p class="bio">
+          Altruist, adventurer, philosopher. I love animals, good people, and great food. I have a simultaneous passion for both realism and cartoons, science and philosophy, solitude and compersion. I remain fascinated by the human condition, and the things we do to communicate to one another what this means to us.
+        </p>
+        <h3>Experience:</h3>
+        <p class="bio">
+          Most experienced with: front-end development, illustration, and Photoshop image manipulation<br>
+          Some experience with: back-end languages and databases
+        </p>
+        <h3>Status:</h3>
+        <p class="bio">
+          Studying: bachelor's degree in CS<br>
+          Seeking: internship/apprenticeship in front-end web development
+        </p>
+      </div>
+    </div>
+
+    <!------------- Footer ---------->
+    <div class="navbar navbar-fixed-bottom transparent d-flex flex-column justify-content-center" id="contact">
+      <h3 class="text-center">Contact me at any of these links!</h3>
+      <div class="d-flex justify-content-between">
+        <p class="text-muted">&copy; KT Minckler 2021</p>
+        <p>
+          <!--------- Social icons ----------->
+          <a href="https://www.facebook.com/ktminks" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://kminckler.deviantart.com" target="_blank"><i class="fab fa-deviantart"></i></a>
+          <a href="https://plus.google.com/u/0/+KatieMinckler" target="_blank"><i class="fab fa-google-plus"></i></a>
+          <a href="https://www.linkedin.com/in/ktminks" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/ktminks" target="_blank"><i class="fab fa-github"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nova+Oval" rel="stylesheet">
+    <title>Wiki Search</title>
+</head>
+
+<body>
+    <div class="container text-center mt-5">
+        <header>
+            <h1 class="p-2 display-4">Wikipedia API Search</h1>
+            <p class="h2">
+                <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="badge badge-dark px-4 py-2 m-2">
+                    Click for a random article
+                </a>
+
+            </p>
+            <p class="lead">Or type your search in the box:</p>
+        </header>
+        <div class="d-flex w-50 m-auto">
+            <input class="form-control" type="text" placeholder="Search on Wikipedia" id="searchBox">
+            <button class="btn btn-primary btn-block" type="submit" id="submit">Submit</button>
+        </div>
+        <ul id="output" class="mt-5 list-unstyled">
+
+        </ul>
+        <footer class="text-muted">
+            Designed and coded by KT Minckler
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
