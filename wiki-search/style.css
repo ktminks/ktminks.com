@@ -1,18 +1,23 @@
 body {
   color: #fff;
-  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/carbon_fibre.png");
+  background-image: url("https://img.freepik.com/premium-vector/peg-board-perforated-texture-background-material-with-oval-holes-seamless-pattern-board-vector_503038-5894.jpg");
+  background-size: 300px;
   font-family: "Josefin Sans", sans-serif;
 }
+
 h1 {
   font-family: "Nova Oval", cursive;
 }
+
 footer {
   font-size: .7em;
 }
+
 a {
   color: white;
   text-decoration: none;
 }
+
 a:hover {
-  color:cadetblue;
+  color: cadetblue;
 }
