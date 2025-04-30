@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs --------------------------------->
+    <meta charset="utf-8">
+    <title>Mindfulness Quote Generator</title>
+    <meta name="description" content="Personal programming portfolio for Kathleen Minckler">
+    <meta name="author" content="Kathleen Minckler">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONT --------------------------------------------->
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+
+    <!-- Favicon ------------------------------------------>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <!-- CSS ---------------------------------------------->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
+
+    <!-- Scripts ------------------------------------------>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="transbox py-2">
+            <div class="header text-center">
+                <h1 class="display-3">Kindling mindfulness</h1>
+                <p class="lead">Quotes to inspire a little peace of mind</p>
+            </div>
+            <div class="quotebox rounded m-auto p-5">
+                <blockquote class="text-center m-0">
+                    <p id="currentQuote" class="blockquote"></p>
+                    <p id="currentAuthor" class="blockquote-footer m-0"></p>
+                </blockquote>
+            </div>
+            <p class="d-flex justify-content-center align-items-center mt-3 lead" id="buttons">
+                <a class="h2 m-1" id="tweetMe" href="" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+                <button class="btn btn-light ml-5" id="newQuote">
+                    New Quote
+                </button>
+            </p>
+        </div>
+        <div class="footer text-center mt-2"><a class="btn btn-outline-dark" href="https://codepen.io/ktminks" target="_blank">by ktminks</a></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

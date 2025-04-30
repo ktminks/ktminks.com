@@ -1,2 +1,1 @@
-# ktminks.com
- Portfolio, resume, blog, etc.
+# Code Portfolio

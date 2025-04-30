@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs --------------------------------->
+    <meta charset="utf-8">
+    <title>Local Weather</title>
+    <meta name="description" content="Personal programming portfolio for Kathleen Minckler">
+    <meta name="author" content="Kathleen Minckler">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONT --------------------------------------------->
+    <link href="https://fonts.googleapis.com/css?family=Abel|Aclonica" rel="stylesheet">
+
+    <!-- Favicon ------------------------------------------>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <!-- CSS ---------------------------------------------->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Scripts ------------------------------------------>
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<style>
+    body {
+        background-image: url("img/trees.jpg");
+        font-family: Abel, sans-serif;
+        color: #2A83BE;
+    }
+
+    h1 {
+        font-family: Aclonica, monospace !important;
+    }
+
+    #owlogo {
+        height: 2em;
+    }
+
+    #card {
+        max-width: 80%;
+    }
+</style>
+
+<body>
+    <div class="container text-center">
+        <div class="container d-flex flex-column m-auto mt-5 p-4 rounded bg-light bg-gradient bg-opacity-10 shadow" id="card">
+            <h1>Local Weather</h1>
+            <h2>My local weather station:</h2>
+            <div class="fs-4 m-auto">
+                <p id="loc">City, country</p>
+                <p id="weather">
+                    <button class='btn btn-primary'>
+                        <span id="temp">Temperature:</span>
+                    </button>
+                    <button class='btn btn-secondary'>
+                        <span id="desc">Description:</span>
+                    </button>
+                    <span id="icon"></span>
+                </p>
+                <div class="fs-5 d-flex flex-column justify-content-center" id="details"></div>
+            </div>
+        </div>
+        <footer class="fs-6 pt-2 text-dark">
+            <p class="m-0">Designed and coded by KT Minckler</p>
+            <p class="m-0">Local weather provided by <img class="img-fluid" src="img/owl_logo.png" alt="OpenWeather" id="owlogo"></p>
+    </div>
+    </footer>
+    </div>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>

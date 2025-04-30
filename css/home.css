@@ -1,0 +1,72 @@
+/* --------- GENERAL --------------*/
+
+body {
+  background-image: url("http://www.designyourway.net/diverse/darkpat/wallpaper_800x600_1336.jpg");
+  overflow-x: hidden;
+}
+.transparent {
+  background-color: transparent !important;
+}
+.semi-transparent {
+  opacity: 0.7;
+}
+.grayish {
+  background-color: rgba(27, 27, 27, .8);
+}
+/* --------- NAVBAR ------------*/
+#nav-links-button {
+  margin: 0px 70px;
+}
+#nav-links {
+  margin: -27px -20px;
+  font-size: 20px !important;
+}
+#logo {
+  margin: 0px -5px;
+  font-size: 25px !important;
+  font-family: 'shadows into light', cursive;
+}
+
+/*------------ PORTFOLIO ------*/
+#portfolio img {
+  width: 100%;
+}
+.card {
+  margin: 1vw;
+}
+h1 {
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  padding: 1vw;
+}
+/* ---------- ABOUT ------------*/
+#about {
+  color: white;
+}
+#kt{
+  border: solid white;
+  border-radius: 50%;
+  width: 20vw;
+  margin: 2vw;
+}
+#about h2 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+/* ----------- CONTACT FORM -----*/
+#contact {
+  color: white;
+}
+#contact h3 {
+  font-family: 'Shadows Into Light', cursive;
+}
+/*-------------- FOOTER -------*/
+a:link, a:visited{
+  color: white;
+}
+a:hover, a:active{
+  color: red;
+}
+i{
+  padding: 5px;
+}
